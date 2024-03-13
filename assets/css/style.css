@@ -26,6 +26,8 @@
     --fc-black: #000000;
     --fc-darkpink: #8A3E74;
     --fc-grey: #4D4D4D;
+    --fc-blue: #010080;
+    --fc-lightgrey: #F0F0F0;
 }
 
 /*=============font-size==============*/
@@ -103,7 +105,7 @@
     line-height: 216px;
 }
 
-/* ---------- fpnt-color --------------- */
+/* ---------- font-color --------------- */
 .color-purple {
     color: var(--fc-purple);
 }
@@ -124,7 +126,15 @@
     color: grey;
 }
 
+.color-lightgrey {
+    color: var(--fc-lightgrey);
+}
 
+.color-black {
+    color: var(--fc-black);
+}
+
+/*  */
 
 .font-poppins {
     font-family: 'Poppins', sans-serif;
@@ -337,6 +347,277 @@
     padding-top: 20px;
 }
 
+/* ================================== our process ============================================ */
+.my-container {
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+.max-w-215 {
+    max-width: 215px;
+}
+
+.max-w-231 {
+    max-width: 231px;
+}
+
+.max-w-181 {
+    max-width: 181px;
+}
+
+.max-w-254 {
+    max-width: 254px;
+}
+
+.max-w-276 {
+    max-width: 276px;
+}
+
+.max-w-194 {
+    max-width: 194px;
+}
+
+.mt_182 {
+    margin-top: 150px !important;
+}
+
+.w-img {
+    position: absolute;
+    top: 43%;
+    right: 6%;
+    z-index: -1;
+}
+
+.ml-32 {
+    margin-left: 32px;
+}
+
+.mr-15 {
+    margin-right: -15px !important;
+}
+
+
+/* ======================================== newsletter ============================================ */
+.gradient-text {
+    background-color: #f3ec78;
+    background-image: linear-gradient(90deg, #9104E5 0%, #F93B96 96.47%);
+    ;
+    background-size: 100%;
+    opacity: 0.5;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.email-box {
+    border: none;
+    outline: none;
+    background: var(--fc-white);
+    padding: 22px 0px 21px 40px;
+    width: 100%;
+    height: 79px;
+}
+
+.pt-100 {
+    padding-top: 200px;
+}
+
+.max-w-672 {
+    max-width: 672px;
+}
+
+.s-btn {
+    background: var(--fc-blue);
+    padding: 24px 49px 24px 49px;
+}
+
+/* .s-btn {
+    background: var(--fc-blue);
+    padding: 24px 80px 24px 80px;
+} */
+
+.gap-24 {
+    gap: 24px;
+}
+
+.news-box {
+    background: var(--fc-lightgrey);
+    width: 100%;
+    max-width: 1320px;
+    height: 394px;
+    border-radius: 45px;
+    padding: 20px;
+}
+
+/* .pstn-text {
+    position: absolute;
+    top: -27%;
+     right: 14%;
+} */
+/* .mt-175 {
+    padding-top: 175px;
+} */
+
+.max-w-915 {
+    max-width: 915px;
+}
+
+/* ========================= inspitations =========================================== */
+.gap-24 {
+    gap: 24px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.max-w-480 {
+    max-width: 480px;
+}
+
+.text-box {
+    width: 100%;
+    max-width: 514px;
+    padding: 17px 10px;
+    background-color: var(--fc-white);
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.max-w-335 {
+    max-width: 335px;
+}
+
+.text-box-2 {
+    width: 100%;
+    max-width: 440px;
+    padding: 17px 10px;
+    background-color: var(--fc-white);
+    position: absolute;
+    bottom: 5%;
+    left: 11%;
+}
+
+.text-box-3 {
+    width: 100%;
+    max-width: 349px;
+    /* padding: 10px 17px; */
+    padding-left: 10px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: var(--fc-white);
+    position: absolute;
+    bottom: 5%;
+    left: 11%;
+}
+
+.text-box-4 {
+    width: 100%;
+    max-width: 349px;
+    /* padding: 10px 17px; */
+    padding-left: 10px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: var(--fc-white);
+    position: absolute;
+    bottom: 5%;
+    left: 8%;
+}
+
+.max-w-370 {
+    max-width: 370px;
+}
+
+.blue-box {
+    background: var(--fc-blue);
+    /* max-width: 426px;
+    width: 100%; */
+    height: 494px;
+    border-radius: 24px;
+}
+
+.h-494 {
+    height: 494px;
+}
+
+.br-24 {
+    border-radius: 24px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.mr-10 {
+    margin-left: -25px;
+}
+
+.ml-20 {
+    margin-left: -20px;
+}
+
+.py-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.insi-1 {
+    position: absolute;
+    top: 35%;
+    right: 0;
+}
+
+.insi-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* ================================== our team =========================================== */
+.bg-team-clr {
+    background-color: var(--fc-blue);
+}
+
+.max-w-162 {
+    max-width: 162px;
+}
+
+.team-3-pstn {
+    position: absolute;
+    top: 26%;
+    left: 43%;
+}
+
+.team-4-pstn {
+    position: absolute;
+    top: 26%;
+    left: 77%;
+}
+
+.h-819 {
+    min-height: 819px;
+}
+
+.max-w-423 {
+    max-width: 423px !important;
+}
+
+
+
+
+
+
+@media (max-width:1400px) {
+    .mr-10 {
+        margin-left: -25px;
+    }
+
+    .ml-20 {
+        margin-left: -20px;
+    }
+}
 
 @media (max-width:992px) {
 
@@ -382,13 +663,91 @@
         transition: all 300ms linear;
     }
 
+    :root {
+        .text-144 {
+            font-size: 80px;
+        }
+    }
 
+    .mt-24 {
+        margin-top: 24px;
+    }
+
+
+}
+
+@media (max-width:576px) {
+    :root {
+        .text-144 {
+            font-size: 50px;
+        }
+
+        /* .mt-175 {
+            padding-top: 60px;
+        } */
+    }
+
+    .flex_column {
+        flex-direction: column;
+    }
+
+    .news-box {
+        background: var(--fc-lightgrey);
+        width: 100%;
+        max-width: 1320px;
+        height: 478px;
+        border-radius: 30px;
+        padding: 20px;
+    }
+
+    .max-w-672 {
+        max-width: 300px;
+    }
+
+    .s-btn {
+        background: var(--fc-blue);
+        padding: 24px 90px 24px 90px;
+    }
+
+    :root {
+        .text-144 {
+            font-size: 40px;
+        }
+    }
+
+    .lh-216 {
+        line-height: 150px;
+    }
+}
+
+@media (max-width:320px) {
+    .s-btn {
+        background: var(--fc-blue);
+        padding: 24px 70px 24px 70px;
+    }
+}
+
+
+
+@media (min-width:1500px) and (max-width:1200px) {
+    .w-img {
+        max-width: 1717px;
+        position: absolute;
+        top: 45%;
+        right: 6%;
+        z-index: -1;
+    }
 }
 
 @media (min-width:992px) {
     .py-lg-115 {
         padding-top: 115px;
         padding-bottom: 115px;
+    }
+
+    .py-115-231 {
+        padding-top: 115px;
+        padding-bottom: 231px;
     }
 
     .right-border {
@@ -415,11 +774,130 @@
     .mt-lg-34 {
         margin-top: 34px;
     }
+
     .pt-66 {
         padding-top: 66px;
     }
 
+    .w100 {
+        width: 426px;
+    }
+
+
 
 }
 
-@media (min-width:768px) {}
+@media (min-width:1200px) {
+    .w-img {
+        position: absolute;
+        top: 46%;
+        right: 1%;
+        z-index: -1;
+    }
+
+    .img2 {
+        position: relative;
+        margin-right: 61px;
+        bottom: 40px;
+    }
+
+    .img4 {
+        position: relative;
+        margin-left: 34px;
+        bottom: 40px;
+    }
+
+    .img6 {
+        position: relative;
+        left: -89px;
+        bottom: 40px;
+    }
+}
+
+@media (min-width:1440px) {
+    .pstn-text {
+        position: absolute;
+        top: -27%;
+        right: 15%;
+    }
+
+    .mt-175 {
+        padding-top: 175px;
+    }
+
+    .text-box {
+        width: 100%;
+        max-width: 554px;
+        padding: 17px 37px;
+        background-color: var(--fc-white);
+        position: absolute;
+        bottom: 5%;
+        left: 8%;
+    }
+
+    .max-w-335 {
+        max-width: 335px;
+    }
+
+    .text-box-2 {
+        width: 100%;
+        max-width: 440px;
+        padding: 17px 52px;
+        background-color: var(--fc-white);
+        position: absolute;
+        bottom: 5%;
+        left: 11%;
+    }
+
+    .text-box-3 {
+        width: 100%;
+        max-width: 356px;
+        /* padding: 10px 17px; */
+        padding-left: 10px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        background-color: var(--fc-white);
+        position: absolute;
+        bottom: 5%;
+        left: 12%;
+    }
+
+    .text-box-4 {
+        width: 100%;
+        max-width: 356px;
+        /* padding: 10px 17px; */
+        padding-left: 10px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        background-color: var(--fc-white);
+        position: absolute;
+        bottom: 5%;
+        left: 12%;
+    }
+
+    .mr-130 {}
+
+    .img6 {
+        margin-right: 120px;
+        position: relative;
+        bottom: 33px;
+    }
+
+    .img4 {
+        position: relative;
+        bottom: 33px;
+    }
+
+    .img2 {
+        position: relative;
+        bottom: 33px;
+        margin-right: 80px;
+    }
+
+    .w-img {
+        position: absolute;
+        top: 43%;
+        right: 6%;
+        z-index: -1;
+    }
+}
