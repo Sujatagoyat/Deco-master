@@ -10,7 +10,6 @@ menuIcon.addEventListener("click", function () {
 
 // =================== slider ===============================================
 $('.responsive').slick({
-    dots: true,
     infinite: true,
     autoplay:true,
     autoplaySpeed:1000,
@@ -49,7 +48,7 @@ $('.responsive').slick({
     ]
 });
 $('.responsive-2').slick({
-    dots: true,
+    
     infinite: true,
     autoplay:true,
     autoplaySpeed:1000,
